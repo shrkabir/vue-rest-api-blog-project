@@ -84,24 +84,24 @@
 <script>
 import HomeFeaturedBlog from './HomeFeaturedBlog'
 export default {
- name: 'VueRestApiBlogProjectHome',
- components: {
+  name: 'VueRestApiBlogProjectHome',
+  components: {
     'home-featured-blog': HomeFeaturedBlog
-    },
+  },
 
-  data() {
-    return {           
-    };
-},
+  data () {
+    return {
+    }
+  },
 
-mounted() {
-        
-    },
+  mounted () {
 
-    methods: {
-        
-    },
-};
+  },
+
+  methods: {
+
+  }
+}
 </script>
 
 <style scoped>

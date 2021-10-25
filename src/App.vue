@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <MyHeader/>
-            <!-- Page Content-->
-            <router-view/>
-        </main>
+        <!-- Navigation-->
+        <my-header/>
+        <!-- Page Content-->
+        <router-view/>
+    </main>
         <!-- Footer-->
-        <MyFooter/>
+        <my-footer/>
   </div>
 </template>
 
@@ -18,8 +18,8 @@ import Footer from './components/includes/Footer'
 export default {
   name: 'App',
   components: {
-    'MyHeader': Header,
-    'MyFooter': Footer
+    'my-header': Header,
+    'my-footer': Footer
   }
 }
 </script>

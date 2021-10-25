@@ -19,22 +19,22 @@
 
 <script>
 export default {
-    name: 'VueRestApiBlogProjectFooter',
+  name: 'VueRestApiBlogProjectFooter',
 
-    data() {
-        return {
-            
-        };
-    },
+  data () {
+    return {
 
-    mounted() {
-        
-    },
+    }
+  },
 
-    methods: {
-        
-    },
-};
+  mounted () {
+
+  },
+
+  methods: {
+
+  }
+}
 </script>
 
 <style scoped>

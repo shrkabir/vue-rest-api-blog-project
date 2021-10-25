@@ -28,22 +28,22 @@
 
 <script>
 export default {
-    name: 'VueRestApiBlogProjectHomefeaturedblog',
+  name: 'VueRestApiBlogProjectHomefeaturedblog',
 
-    data() {
-        return {
-            
-        };
-    },
+  data () {
+    return {
 
-    mounted() {
-        
-    },
+    }
+  },
 
-    methods: {
-        
-    },
-};
+  mounted () {
+
+  },
+
+  methods: {
+
+  }
+}
 </script>
 
 <style scoped>
