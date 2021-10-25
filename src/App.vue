@@ -1,13 +1,26 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <MyHeader/>
+            <!-- Page Content-->
+            <router-view/>
+        </main>
+        <!-- Footer-->
+        <MyFooter/>
   </div>
 </template>
 
 <script>
+import Header from './components/includes/Header'
+import Footer from './components/includes/Footer'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'MyHeader': Header,
+    'MyFooter': Footer
+  }
 }
 </script>
 
@@ -18,6 +31,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 </style>
