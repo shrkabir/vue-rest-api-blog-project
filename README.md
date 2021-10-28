@@ -1,30 +1,10 @@
-# vue-rest-api-blog-project
+<h2>vue-rest-api-blog-project</h2>
 
-> A Vue.js project
+This is a vue project. The data for this project comes through API of my laravel-blog-project.
 
-## Build Setup
+<h2>Project Screenshots:</h2>
 
-``` bash
-# install dependencies
-npm install
+<img src="project_screenshots/Home_page.JPG"/>
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<img src="project_screenshots/Home_scroll_down.JPG"/>
