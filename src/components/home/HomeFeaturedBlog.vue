@@ -2,7 +2,7 @@
     <div>
         <section class="py-5" v-for="blog in featuredBlog" :key="blog.id">
                 <div class="container px-5">
-                    <h1 class="fw-bolder fs-5 mb-4">Popular Blog</h1>
+                    <h1 class="fw-bolder fs-5 mb-4">Recent Blog</h1>
                     <div class="card border-0 shadow rounded-3 overflow-hidden">
                         <div class="card-body p-0">
                             <div class="row gx-0">
